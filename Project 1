@@ -1,0 +1,13 @@
+#Traffic light simulator
+
+light=input("Enter the colour: ")
+if(light=="red" or light=="RED"):
+    print("STOP")
+elif(light=="yellow" or light=="YELLOW"):
+    print("GET READY")
+elif(light=="green" or light=="GREEN"):
+    print("GO")
+else:
+    print("Enter the Correct Colour...")
+
+
